@@ -259,3 +259,66 @@ main .pillars>.pillars-container .pill-description{
     background: rgb(0, 106, 80);
     color: white;
 }
+
+/* donation section */
+.donation-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.donation-container .donation{
+    margin: 64px 128px;
+}
+.donation-container .donation>.donation-title{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+.donation-container .donation>.donation-description{
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 70px;
+    margin-left: 70px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.donation-container .donation>.donation-amount-container{
+    text-align: center;
+    margin-top: 26px;
+    margin-right: 82px;
+    margin-left: 82px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.donation-container .donation>.donation-amount-container>.donation-amount{
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 26px;
+    font-weight: 700;
+}
+.donation-container .donation>.donation-amount-container>.donation-amount:nth-child(2){
+    background-color: rgb(198, 228, 214);
+}
+.donation-container input[type=text]{
+    display: block;
+    margin-top: 25px;
+    margin-right: 95px;
+    margin-left: 95px;
+    width: 75%;
+    padding: 16px 32px;
+    text-align: center;
+    border-radius: 6px;
+    border: none;
+}
+.donation-container .btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 26px;
+}
+.donation-container .btn-container>.btn-primary{
+    background-color: rgb(0, 106, 80);
+    color: white;
+}

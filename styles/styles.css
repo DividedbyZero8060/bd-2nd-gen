@@ -377,3 +377,28 @@ main .pillars>.pillars-container .pill-description{
     font-weight: 400;
     text-align: center;
 }
+
+/* footer part */
+footer .footer-container{
+    margin-top: 64px;
+    padding: 40px 128px;
+    text-align: center;
+}
+footer h1{
+
+    color: rgb(14, 14, 14);
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.1);
+}
+footer .icon-container{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18.5px;
+}
+

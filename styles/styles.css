@@ -66,7 +66,6 @@ nav {
 /* pillars section  */
 main .pillars{
     margin: 64px 128px;
-    padding: 10px;
 }
 main .pillars .pillars-title-container{
     max-width: 1180px;
@@ -75,7 +74,7 @@ main .pillars .pillars-title-container{
     font-size: 24px;
     font-weight: 700;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 main .pillars> .pillars-container{
     max-width: 1180px;
@@ -105,3 +104,89 @@ main .pillars>.pillars-container .pill-title{
 main .pillars>.pillars-container .pill-description{
     padding-top: 10px;
 }
+
+/* visions section */
+.visions-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.visions{
+    margin: 24px 128px;
+    max-width: 1180px;
+}
+
+.visions> .visions-title-container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.visions> .visions-title-container > h2.visions-title{
+    color: rgb(14, 14, 14);
+    font-size: 32px;
+    font-weight: 700;
+}
+.visions .visions-details{
+    margin-top: 19px;
+    width: 90%;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.visions-container .visions-card-container{
+    margin-top: 26px;
+    display: flex;
+    gap: 26px;
+}
+.visions-container .visions-card-container .visions-card{
+    padding: 26px;
+    box-sizing: border-box;
+    border-radius: 16px;
+
+}
+.visions-container .visions-card-container .visions-card:nth-child(1){
+    background-color: rgba(84, 144, 245, 0.2);
+
+}
+.visions-container .visions-card-container .visions-card:nth-child(2){
+    background-color: rgb(198, 228, 214);
+
+}
+.visions-container .visions-card-container .visions-card:nth-child(3){
+    background-color: rgb(247, 235, 207);
+
+}
+.visions-container .visions-card-container .visions-card .card-title{
+    margin-top: 18px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.visions-container .visions-card-container .visions-card .card-description{
+    margin-top: 18px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.visions-container .visions-card-container .visions-card .card-btn{
+    margin-top: 18px;
+    font-size: 16px;
+    border-radius: 8px;
+
+}
+.visions-container .visions-card-container .visions-card:nth-child(1) .card-btn{
+    background-color: rgb(84, 144, 245);
+    color: white;
+}
+.visions-container .visions-card-container .visions-card:nth-child(2) .card-btn{
+    background-color: rgb(9, 161, 92);
+    color: white;
+}
+.visions-container .visions-card-container .visions-card:nth-child(3) .card-btn{
+    background-color: rgb(255, 194, 57);
+    color: white;
+}
+

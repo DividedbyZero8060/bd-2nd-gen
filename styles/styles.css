@@ -1,4 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* device-width is 1280px, so all calculation was done with multiplying 0.8 factor */
 * {
     margin: 0;
     padding: 0;
+    font-family: Fira Sans, sans-serif;
 }
+
+/* navigation bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 128px;
+}
+.btn-primary{
+    padding: 12px 24px;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 6px;
+
+}
+.nav-btn{
+    color: rgb(0, 106, 80);
+    font-weight: bold;
+}
+/* front page */
+.front-page{
+    background-color: rgb(198, 228, 214);
+    max-width: 1024px;
+    margin: 0 auto;
+    border-radius: 19px;
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 64px 80px;
+}
+
+.front-page .title{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(14, 14, 14, 0.5);
+}
+.front-page .title-details{
+    margin-top:12px;
+    font-weight: 700;
+    font-size: 45px;
+}
+.front-page .title-btn{
+    margin-top: 20px;
+    background-color: rgb(0, 106, 80);
+    color: white;
+}
+
+/* hovering actions */
+.btn-primary:hover{
+    background-color: rgb(198, 228, 214);
+    cursor: pointer;
+}
+

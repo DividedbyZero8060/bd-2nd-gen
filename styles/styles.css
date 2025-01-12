@@ -7,6 +7,9 @@
     font-family: Fira Sans, sans-serif;
 }
 
+body{
+    background-color: rgb(248, 248, 248);
+}
 /* navigation bar */
 nav {
     display: flex;
@@ -60,3 +63,46 @@ nav {
     cursor: pointer;
 }
 
+/* pillars section  */
+main .pillars{
+    margin: 64px 128px;
+}
+main .pillars .pillars-title{
+    margin-top: 30px;
+    margin-left: 160px;
+    padding-left: 20px;
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: left;
+}
+main .pillars> .pillars-container{
+    max-width: 1180px;
+    margin: 0 auto;
+    margin-top: 26px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+main .pillars>.pillars-container>.pillar {
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 12px;
+    background: rgb(255, 255, 255);
+
+}
+main .pillars>.pillars-container .pill-img{
+    width: 40px;
+    height: 43px;
+    font-size: 38px;
+}
+main .pillars>.pillars-container .pill-title{
+    padding-top: 10px ;
+}
+main .pillars>.pillars-container .pill-description{
+    padding-top: 10px;
+}

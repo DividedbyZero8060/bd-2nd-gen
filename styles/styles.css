@@ -322,3 +322,58 @@ main .pillars>.pillars-container .pill-description{
     background-color: rgb(0, 106, 80);
     color: white;
 }
+
+/* newsletter section */
+.newsletter-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newsletter-container>.newsletter{
+    margin: 64px 128px;
+    padding: 64px 80px;
+    background-color: rgb(198, 228, 214);
+    border-radius: 20px;
+}
+.newsletter-container>.newsletter>.newsletter-title{
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+.newsletter-container>.newsletter>.newsletter-description{
+    margin-top: 13px;
+    margin-right: 50px;
+    margin-left:50px ;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.newsletter-container>.newsletter>.inputnbtn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 19px;
+    margin-bottom: 19px;
+}
+.newsletter-container>.newsletter>.inputnbtn>input[type=text]{
+    width: 480px;
+    padding: 14px 32px;
+    border-radius: 6px 0px 0px 6px;
+    background: rgb(255, 255, 255);
+    border: none;
+}
+.newsletter-container>.newsletter>.inputnbtn>.btn-primary{
+    padding: 14px 32px;
+    border: none;
+    background-color: rgb(0, 106, 80);
+    color: white;
+}
+.newsletter-container>.newsletter .newsletter-footer{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}

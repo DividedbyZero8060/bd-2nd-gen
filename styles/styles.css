@@ -112,7 +112,7 @@ main .pillars>.pillars-container .pill-description{
     align-items: center;
 }
 .visions{
-    margin: 24px 128px;
+    margin: 64px 128px;
     max-width: 1180px;
 }
 
@@ -190,3 +190,72 @@ main .pillars>.pillars-container .pill-description{
     color: white;
 }
 
+/* recent news section */
+.news-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.news{
+    margin: 64px 128px;
+    max-width: 1180px;
+}
+.news-container .news-title-container{
+    display:flex ;
+    justify-content: flex-start;
+}
+.news .news-title{
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(14, 14, 14);
+}
+.news .news-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.news .news-card{
+    margin-top: 20px;
+    display: flex;
+    padding: 40px;
+    gap: 25px;
+    background-color: white;
+    border-radius: 20px;
+}
+.news .news-card:nth-child(4){
+    flex-direction: row-reverse;
+}
+.news .news-card>img{
+    border-radius: 20px;
+    height: 45vh;
+}
+
+.news .news-card .news-info .news-info-title{
+    font-size: 26px;
+    font-weight: 700;
+}
+.news .news-card .news-info .news-agency{
+    display: block;
+    margin-top: 10px;
+    height: 5vh;
+}
+.news .news-card .news-info .date-time{
+    margin-top: 10px;
+}
+.news .news-card .news-info .date-time .date{
+    display: inline-block;
+    margin-right: 10px;
+}
+.news .news-card .news-info .news-details{
+    margin-top: 10px;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 14px;
+    font-weight: 400;
+}
+.news .news-card .news-info .news-btn{
+    margin-top: 26px;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    color: white;
+}

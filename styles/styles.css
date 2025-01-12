@@ -66,17 +66,16 @@ nav {
 /* pillars section  */
 main .pillars{
     margin: 64px 128px;
+    padding: 10px;
 }
-main .pillars .pillars-title{
-    margin-top: 30px;
-    margin-left: 160px;
-    padding-left: 20px;
+main .pillars .pillars-title-container{
+    max-width: 1180px;
+    margin: 0 auto;
     color: rgb(14, 14, 14);
-    font-family: Fira Sans;
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 700;
-    line-height: 38px;
-    text-align: left;
+    display: flex;
+    justify-content: flex-start;
 }
 main .pillars> .pillars-container{
     max-width: 1180px;

@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /* device-width is 1280px, so all calculation was done with multiplying 0.8 factor */
+/* done at 100% zoom level on edge browser */
 * {
     margin: 0;
     padding: 0;
@@ -400,5 +401,34 @@ footer .icon-container{
     justify-content: center;
     align-items: center;
     gap: 18.5px;
+}
+/* quote section */
+.quote-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 26px 128px;
+}
+.quote-container>.quote{
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    padding: 30px 8px;
+}
+.quote-container>.quote>.quote-description{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+}
+.quote-container>.quote>h3.quoted-by{
+    color: rgba(14, 14, 14, 0.8);
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.quote-container>.quote>.quoter-designation{
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 13px;
+    font-weight: 400;
 }
 
